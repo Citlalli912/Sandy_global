@@ -1,0 +1,59 @@
+/*ESTILOS GLOBALES*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* a { text-decoration: none; }
+* button 
+{
+	border: none;
+	background: none;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+nav
+{
+	width: 100vw;
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.menu
+{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.menu > a
+{
+	margin: 0 10px;
+}
+.menu > a:hover
+{
+	color: rgb(240, 240, 10);
+}
+h1
+{
+	font-size: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
